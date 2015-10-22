@@ -14,4 +14,12 @@
         <url-pattern>*.ws</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>MacServlet</servlet-name>
+        <servlet-class>MacServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MacServlet</servlet-name>
+        <url-pattern>/servlet/MacServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
